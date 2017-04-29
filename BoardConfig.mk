@@ -1,7 +1,7 @@
 # inherit from the proprietary version
--include vendor/mediatek/mt6582/BoardConfigVendor.mk
+-include vendor/micromax/a106/BoardConfigVendor.mk
 
-LOCAL_PATH := device/mediatek/mt6582
+LOCAL_PATH := device/micromax/a106
 
 # Board
 TARGET_BOARD_PLATFORM := mt6582
