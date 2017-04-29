@@ -15,7 +15,7 @@ This branch is for building 6.0.x based ROMs.
 
 * Compilation
 
-        # repo init -u git://github.com/rohantaneja/android.git -b cm-13.0
+        # repo init -u git://github.com/sunmughan/android.git -b cm-13.0
         
         # repo sync
         
