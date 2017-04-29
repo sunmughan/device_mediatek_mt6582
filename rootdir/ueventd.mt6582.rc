@@ -182,4 +182,3 @@
 #touch
 /dev/touch              0660   root       system
 /dev/hotknot             0660    root system
-
