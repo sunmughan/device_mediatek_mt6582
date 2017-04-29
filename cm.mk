@@ -5,7 +5,7 @@ PRODUCT_RELEASE_NAME := MT6582
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit from hardware-specific part of the product configuration
-$(call inherit-product, device/Micromax/a106/device.mk)
+$(call inherit-product, device/micromax/a106/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := A106
