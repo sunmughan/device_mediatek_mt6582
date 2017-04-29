@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/mediatek/mt6582
+LOCAL_PATH := device/micromax/a106
 
 ifeq ($(TARGET_DEVICE),mt6582)
 
