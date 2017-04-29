@@ -22,9 +22,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit vendor blobs
-$(call inherit-product-if-exists, vendor/mediatek/mt6582/mt6582-vendor.mk)
+$(call inherit-product-if-exists, vendor/micromax/a106/a106-vendor.mk)
 
-LOCAL_PATH := device/mediatek/mt6582
+LOCAL_PATH := device/micromax/a106
 
 PRODUCT_CHARACTERISTICS := default
 
@@ -217,12 +217,12 @@ PRODUCT_PROPERTY_OVERRIDES := \
 $(call inherit-product, build/target/product/full.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
-PRODUCT_NAME := full_mt6582
-PRODUCT_DEVICE := mt6582
+PRODUCT_NAME := Micromax A106
+PRODUCT_DEVICE := A106
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 1280
-TARGET_SCREEN_WIDTH := 720
+TARGET_SCREEN_HEIGHT := 800
+TARGET_SCREEN_WIDTH := 480
 
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi xhdpi
